@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_CarDealership"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Icon="Images/Ico.png"
+        Title="Car Dealership" Height="720" Width="1280">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/Ferrari-F8-Tributo-2.png" Stretch="Fill"/>
+    </Window.Background>
     <Grid>
         
     </Grid>
